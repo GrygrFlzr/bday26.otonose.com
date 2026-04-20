@@ -11,11 +11,17 @@ const config = {
 		version: {
 			name: execSync('git rev-parse HEAD').toString().trim(),
 			pollInterval: 0
+		},
+		experimental: {
+			remoteFunctions: true
 		}
 	},
 	compilerOptions: {
 		modernAst: true,
-		runes: true
+		runes: true,
+		experimental: {
+			async: true
+		}
 	}
 };
 

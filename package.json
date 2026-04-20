@@ -1,7 +1,6 @@
 {
 	"name": "bday26-kanade",
 	"private": true,
-	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -17,6 +16,7 @@
 	"devDependencies": {
 		"@eslint/compat": "^2.0.5",
 		"@eslint/js": "^10.0.1",
+		"@fontsource-variable/merriweather": "^5.2.6",
 		"@sveltejs/adapter-cloudflare": "^7.2.8",
 		"@sveltejs/kit": "^2.57.1",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
@@ -31,7 +31,7 @@
 		"svelte-check": "^4.4.6",
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.58.2",
-		"vite": "^8.0.8",
+		"vite": "^8.0.9",
 		"wrangler": "^4.83.0"
 	},
 	"engines": {
