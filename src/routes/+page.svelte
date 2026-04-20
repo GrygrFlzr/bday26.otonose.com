@@ -86,6 +86,7 @@
 
 <svelte:head>
 	<link rel="canonical" href="https://bday26.otonose.com/" />
+	<title>Otonose Kanade 2026 Birthday Letters</title>
 </svelte:head>
 
 <header class="hero">
